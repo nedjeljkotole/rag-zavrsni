@@ -1,0 +1,3 @@
+HNSW i približno pretraživanje najbližih susjeda
+
+Kod milijuna vektora točna usporedba upita sa svakim zapisom postaje prespora, pa se koriste algoritmi približnog najbližeg susjeda (ANN). HNSW (Hierarchical Navigable Small World) gradi višeslojni graf u kojem gornji slojevi sadrže malo čvorova i omogućuju velike skokove, a donji slojevi sadrže sve vektore za precizno lokalno pretraživanje. Parametri grafa određuju kompromis između brzine pretraživanja, potrošnje memorije i odziva, odnosno udjela stvarnih najbližih susjeda koje algoritam pronađe.

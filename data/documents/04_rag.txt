@@ -1,0 +1,3 @@
+Generiranje vođeno dohvaćanjem (RAG)
+
+Generiranje vođeno dohvaćanjem povezuje generativni jezični model s vanjskom kolekcijom dokumenata. Prije generiranja sustav pretražuje kolekciju, pronalazi odlomke relevantne za upit i uključuje ih u kontekst modela. Lewis i suradnici opisali su RAG kao spoj parametarske memorije modela i neparametarske memorije u obliku indeksa dokumenata. Glavne prednosti su mogućnost ažuriranja znanja bez ponovnog treniranja modela, smanjenje halucinacija i navođenje izvora uz odgovor. Nedostatak je veća složenost sustava jer kvaliteta odgovora ovisi i o kvaliteti dohvaćanja.

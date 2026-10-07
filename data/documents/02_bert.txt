@@ -1,0 +1,3 @@
+BERT
+
+BERT (Bidirectional Encoder Representations from Transformers) je jezični model koji koristi samo koder Transformera. Predtreniran je na velikim količinama neoznačenog teksta zadatkom maskiranog jezičnog modeliranja, u kojem model pogađa skrivene riječi na temelju lijevog i desnog konteksta, te zadatkom predviđanja sljedeće rečenice. Takvo dvosmjerno predtreniranje daje kontekstualne reprezentacije tokena. Za konkretan zadatak, primjerice klasifikaciju teksta ili odgovaranje na pitanja, BERT se fino podešava dodavanjem malog izlaznog sloja i kratkim treniranjem na označenim primjerima.

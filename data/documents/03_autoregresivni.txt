@@ -1,0 +1,3 @@
+Autoregresivni jezični modeli
+
+Autoregresivni modeli poput modela iz obitelji GPT koriste samo dekoder Transformera i uče predviđati sljedeći token na temelju svih prethodnih tokena. Tekst generiraju korak po korak: u svakom koraku izračunavaju distribuciju vjerojatnosti sljedećeg tokena, odabiru token i dodaju ga u kontekst. Parametri poput temperature i uzorkovanja utječu na raznolikost izlaza. Brown i suradnici pokazali su da dovoljno veliki model može rješavati nove zadatke iz nekoliko primjera danih u samoj uputi, bez promjene težina, što se naziva učenjem iz konteksta.

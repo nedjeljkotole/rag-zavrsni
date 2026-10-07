@@ -1,0 +1,3 @@
+Evaluacija RAG sustava
+
+Evaluacija RAG sustava odvojeno mjeri kvalitetu dohvaćanja i kvalitetu generiranja. Za dohvaćanje se koriste metrike Recall@k, koja pokazuje udio upita s relevantnim rezultatom među prvih k, i MRR (Mean Reciprocal Rank), koji nagrađuje što viši položaj prvog relevantnog rezultata. Za generirani odgovor procjenjuju se relevantnost, utemeljenost u dohvaćenom kontekstu i potpunost. Okvir RAGAS predlaže automatske metrike bez ručno napisanih referentnih odgovora, ali ih je korisno provjeriti ljudskom procjenom.

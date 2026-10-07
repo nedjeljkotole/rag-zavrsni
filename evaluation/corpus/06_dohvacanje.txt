@@ -1,0 +1,3 @@
+Dohvaćanje relevantnih segmenata
+
+U fazi dohvaćanja upit se pretvara u vektor istim modelom kao i dokumenti, a zatim se računa sličnost s vektorima u indeksu. Najčešće se koristi kosinusna sličnost, a sustav vraća k najsličnijih segmenata. Premala vrijednost k može propustiti relevantan izvor, dok prevelika unosi šum u kontekst. Pretraživanje po ključnim riječima, primjerice algoritmom BM25, dobro radi za točne nazive i brojeve, dok gusto dohvaćanje bolje prepoznaje parafraze. Hibridno pretraživanje kombinira oba pristupa, a model za ponovno rangiranje može dodatno poboljšati poredak kandidata.

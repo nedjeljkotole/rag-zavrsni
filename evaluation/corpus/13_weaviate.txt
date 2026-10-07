@@ -1,0 +1,3 @@
+Weaviate
+
+Weaviate je vektorska baza otvorenog koda koja se može pokrenuti lokalno, na vlastitom poslužitelju ili kao usluga u oblaku. Uz pretraživanje po vektorskoj sličnosti podržava pretraživanje po ključnim riječima algoritmom BM25 i hibridne upite koji kombiniraju oba rezultata. Ima ugrađene module za povezivanje s modelima za vektorske reprezentacije i s generativnim modelima, pa se RAG upit može izvesti izravno u bazi: najprije se dohvate rezultati, a zatim se zajedno s uputom proslijede generativnom modelu.

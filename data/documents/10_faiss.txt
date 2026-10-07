@@ -1,0 +1,3 @@
+FAISS
+
+FAISS je biblioteka otvorenog koda koju je razvio Meta AI za učinkovito pretraživanje sličnosti i grupiranje gustih vektora. Nudi točne indekse, poput IndexFlatL2 i IndexFlatIP, te približne indekse temeljene na kvantizaciji i grafovima. Podržava izvođenje na grafičkim procesorima (GPU), što omogućuje pretraživanje milijardi vektora. FAISS nije potpuna baza podataka: ne upravlja korisnicima ni metapodacima, pa aplikacija sama mora čuvati vezu između položaja vektora i izvornog dokumenta.

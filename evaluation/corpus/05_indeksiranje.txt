@@ -1,0 +1,3 @@
+Indeksiranje i segmentacija dokumenata
+
+Indeksiranje počinje izdvajanjem teksta iz datoteka u formatima PDF, DOCX ili HTML te spremanjem metapodataka kao što su naslov, autor i broj stranice. Dokument se zatim dijeli na manje segmente jer je cijeli dokument prevelik za jednu reprezentaciju. Segmenti se često preklapaju za nekoliko desetaka riječi kako se definicija ne bi odvojila od uvjeta ili iznimke koja slijedi. Svaki segment dobiva identifikator, a sažetak sadržaja (hash) služi za otkrivanje duplikata pri ponovnom pokretanju cjevovoda.

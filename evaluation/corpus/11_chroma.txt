@@ -1,0 +1,3 @@
+Chroma
+
+Chroma je vektorska baza otvorenog koda namijenjena razvoju aplikacija umjetne inteligencije. Podaci se organiziraju u kolekcije, a svaka kolekcija sadrži dokumente, njihove vektore, identifikatore i metapodatke. Ako vektori nisu zadani, Chroma ih može sama izračunati pomoću zadane funkcije za ugrađivanje. Upiti vraćaju najsličnije dokumente i mogu se ograničiti filtrima nad metapodacima. Zbog jednostavnog lokalnog pokretanja u Pythonu često se koristi za prototipove.

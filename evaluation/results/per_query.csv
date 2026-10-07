@@ -1,0 +1,31 @@
+id,question,target,rank,top1,top1_score
+Q01,Koji mehanizam Transformer koristi umjesto rekurentnih slojeva?,01_transformer,1,01_transformer,0.2554
+Q02,Zašto se ulazu modela dodaje informacija o položaju riječi?,01_transformer,1,01_transformer,0.1131
+Q03,Kojim se zadacima predtrenira BERT?,02_bert,1,02_bert,0.1586
+Q04,Kako se model koji pogađa skrivene riječi prilagođava za klasifikaciju teksta?,02_bert,1,02_bert,0.2475
+Q05,Kako autoregresivni model generira tekst token po token?,03_autoregresivni,1,03_autoregresivni,0.1824
+Q06,Može li veliki model riješiti novi zadatak samo iz nekoliko primjera u uputi?,03_autoregresivni,1,03_autoregresivni,0.2452
+Q07,Što je generiranje vođeno dohvaćanjem?,04_rag,1,04_rag,0.3067
+Q08,Koje su prednosti povezivanja jezičnog modela s vanjskim dokumentima?,04_rag,1,04_rag,0.1271
+Q09,Zašto se segmenti dokumenta preklapaju?,05_indeksiranje,1,05_indeksiranje,0.1097
+Q10,Kako se pri ponovnom pokretanju otkrivaju duplikati?,05_indeksiranje,1,05_indeksiranje,0.228
+Q11,Koja se metrika sličnosti najčešće koristi pri dohvaćanju segmenata?,06_dohvacanje,1,06_dohvacanje,0.1238
+Q12,Što se događa ako sustavu vratimo premalo ili previše rezultata?,06_dohvacanje,11,13_weaviate,0.0707
+Q13,Koliko dimenzija imaju vektori modela paraphrase-multilingual-MiniLM-L12-v2?,07_reprezentacije,1,07_reprezentacije,0.1989
+Q14,Po čemu se rijetke reprezentacije razlikuju od gustih?,07_reprezentacije,1,07_reprezentacije,0.1806
+Q15,Što sprema vektorska baza podataka osim samih vektora?,08_vektorske_baze,1,08_vektorske_baze,0.1841
+Q16,Na što treba paziti pri odabiru sustava za pohranu vektora?,08_vektorske_baze,1,08_vektorske_baze,0.1097
+Q17,Kako HNSW organizira graf u slojeve?,09_hnsw,1,09_hnsw,0.1592
+Q18,Zašto se kod milijuna zapisa ne uspoređuje upit sa svakim vektorom?,09_hnsw,1,09_hnsw,0.18
+Q19,Tko je razvio biblioteku FAISS?,10_faiss,1,10_faiss,0.2276
+Q20,Može li se pretraživanje milijardi vektora ubrzati grafičkim karticama?,10_faiss,1,10_faiss,0.2238
+Q21,Kako su podaci organizirani u bazi Chroma?,11_chroma,1,11_chroma,0.1345
+Q22,Koja se baza otvorenog koda lako pokreće u Pythonu za izradu prototipa?,11_chroma,1,11_chroma,0.1758
+Q23,Tko održava infrastrukturu i skaliranje kod usluge Pinecone?,12_pinecone,1,12_pinecone,0.2102
+Q24,Koji su nedostaci korištenja vektorske baze kao usluge u oblaku?,12_pinecone,2,08_vektorske_baze,0.1368
+Q25,Podržava li Weaviate hibridne upite?,13_weaviate,1,13_weaviate,0.2238
+Q26,Može li se generativni odgovor dobiti izravno iz baze podataka?,13_weaviate,3,08_vektorske_baze,0.1466
+Q27,Zašto fino podešavanje nije prikladno za često mijenjanje činjenica?,14_fino_podesavanje,1,14_fino_podesavanje,0.3981
+Q28,Kako se dodatnim treniranjem može promijeniti stil i format odgovora modela?,14_fino_podesavanje,1,14_fino_podesavanje,0.1472
+Q29,Što mjere metrike Recall@k i MRR?,15_evaluacija,1,15_evaluacija,0.2353
+Q30,Kako provjeriti jesu li generirani odgovori utemeljeni u izvorima?,15_evaluacija,1,15_evaluacija,0.1048

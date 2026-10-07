@@ -1,0 +1,3 @@
+Arhitektura Transformer
+
+Transformer je arhitektura neuronske mreže za obradu sekvenci koju su 2017. godine predstavili Vaswani i suradnici u radu „Attention Is All You Need“. Umjesto rekurentnih slojeva koristi mehanizam samopažnje, pa svaki token može izravno procijeniti važnost svih ostalih tokena u kontekstu. Zbog toga se sekvence mogu obrađivati paralelno, što znatno ubrzava treniranje. Izvorni Transformer sastoji se od kodera i dekodera, a svaki sloj sadrži višeglavu pažnju, potpuno povezanu mrežu, rezidualne veze i normalizaciju slojeva. Budući da pažnja sama ne zna redoslijed riječi, ulazu se dodaje pozicijsko kodiranje.

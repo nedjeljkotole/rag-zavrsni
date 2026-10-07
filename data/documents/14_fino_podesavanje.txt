@@ -1,0 +1,3 @@
+Fino podešavanje modela
+
+Fino podešavanje nastavlja treniranje već predtreniranog modela na manjem skupu primjera za određeni zadatak ili područje. Time se mijenjaju težine modela, pa se može prilagoditi stil odgovora, format izlaza ili terminologija. Fino podešavanje nije prikladno za često mijenjanje činjenica jer svaka promjena zahtijeva novi skup podataka i ponovno treniranje. Za aktualno i provjerljivo znanje bolji je RAG, a u praksi se oba pristupa često kombiniraju: model se fino podesi za ponašanje, a RAG mu pruža izvore.

@@ -1,0 +1,3 @@
+Vektorske reprezentacije teksta
+
+Vektorska reprezentacija preslikava tekst u niz brojeva tako da slični tekstovi imaju bliske vektore. Rijetke reprezentacije, kao TF-IDF, imaju po jednu dimenziju za svaki termin rječnika i lako se tumače, ali ovise o podudaranju riječi. Guste reprezentacije nastaju pomoću neuronskih modela i imaju nekoliko stotina dimenzija. Sentence-BERT prilagođava BERT za izradu vektora cijelih rečenica, a višejezični model paraphrase-multilingual-MiniLM-L12-v2 daje 384-dimenzionalne vektore za više od pedeset jezika, uključujući hrvatski.

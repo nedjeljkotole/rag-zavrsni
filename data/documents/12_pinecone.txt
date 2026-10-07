@@ -1,0 +1,3 @@
+Pinecone
+
+Pinecone je upravljana vektorska baza podataka koja se koristi kao usluga u oblaku. Korisnik stvara indeks, šalje vektore ili tekst putem API-ja i postavlja upite, dok infrastrukturu, skaliranje i dostupnost održava pružatelj usluge. Indeksi mogu biti bez poslužitelja (serverless), a podržani su metapodaci, prostori imena i hibridno pretraživanje. Prednost je manje administracije, a nedostatak ovisnost o vanjskom pružatelju, mrežnoj vezi i modelu naplate.

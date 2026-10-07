@@ -1,0 +1,3 @@
+Vektorske baze podataka
+
+Vektorska baza podataka sprema vektore zajedno s izvornim tekstom i metapodacima te omogućuje brzo pronalaženje najbližih vektora zadanom upitu. Uz osnovno pretraživanje po sličnosti, takve baze nude filtriranje po metapodacima, upravljanje kolekcijama, replikaciju i skaliranje na milijune zapisa. Pri izboru baze treba uzeti u obzir veličinu korpusa, mogućnost lokalnog rada, cijenu, sigurnost i jednostavnost ponovnog indeksiranja. Za manje sustave vektori se mogu držati i u radnoj memoriji procesa.
